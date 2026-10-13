@@ -150,12 +150,12 @@ def send_booking_email(
     # ADMIN ACTION LINKS
     # ------------------------------------------------------------
     approve_link = (
-        f"https://web-production-5736e.up.railway.app"
+        f"https://web-production-dceec.up.railway.app"
         f"{config['approve_route']}?booking_id={booking_id}"
     )
 
     decline_link = (
-        f"https://web-production-5736e.up.railway.app"
+        f"https://web-production-dceec.up.railway.app"
         f"{config['decline_route']}?booking_id={booking_id}"
     )
 
