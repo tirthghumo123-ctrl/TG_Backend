@@ -541,7 +541,7 @@ async def generate_odt_qr(
             coupon_code=coupon_code,
             email=email,
             trip_type="HERITAGE",
-        )
+        ) 
 
         if not result["valid"]:
             raise HTTPException(
